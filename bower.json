@@ -1,0 +1,31 @@
+{
+  "name": "parallax-frame",
+  "version": "0.1.0",
+  "authors": [
+    "Naman Nehra <naman.nehra98@gmail.com>"
+  ],
+  "description": "An element providing a parallax frame.",
+  "keywords": [
+    "parallax",
+    "frame",
+    "web-component",
+    "web-components",
+    "polymer"
+  ],
+  "main": "parallax-frame.html",
+  "license": "MIT",
+  "homepage": "https://github.com/namannehra/parallax-frame",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~1.2.3"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#~1.1.2"
+  }
+}
