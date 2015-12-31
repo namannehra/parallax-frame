@@ -2,7 +2,7 @@
 
 An element providing a parallax frame.
 
-_[Demo and API Docs](https://namannehra.github.io/parallax-frame)_
+_[Demo and API Docs](https://namannehra.github.io/parallax-frame/)_
 
 ## Dependencies
 

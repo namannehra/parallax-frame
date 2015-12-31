@@ -14,7 +14,7 @@
   ],
   "main": "parallax-frame.html",
   "license": "MIT",
-  "homepage": "https://github.com/namannehra/parallax-frame",
+  "homepage": "https://github.com/namannehra/parallax-frame/",
   "ignore": [
     "**/.*",
     "node_modules",
