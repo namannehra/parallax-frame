@@ -1,0 +1,45 @@
+<!doctype html>
+<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+		<title>parallax-frame Demo</title>
+		<script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+		<link rel="import" href="../parallax-frame.html">
+	</head>
+	<body>
+		<code>Hover over this image</code>
+		<parallax-frame style="height: 480px; width: 640px;">
+			<div style="background-image: url(img1.jpg); background-position: center; background-size: cover; height: 100%; width: 100%;"></div>
+		</parallax-frame>
+		<br><br><br><br><br><br><br><br>
+		<code>
+			offset-x = 128<br>
+			offset-y = 0<br>
+			mouseListener set to document.body
+		</code>
+		<parallax-frame id="pf1" offset-x="128" offset-y="0" style="border: solid; height: 480px; width: 640px;">
+			<p>Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text...</p>
+			<p>Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text...</p>
+			<p>Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text...</p>
+			<p>Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text...</p>
+			<p>Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text...</p>
+			<p>Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text...</p>
+			<p>Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text...</p>
+			<p>Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text... Some text...</p>
+		</parallax-frame>
+		<script>
+			var pf = document.querySelector('#pf1');
+			pf.mouseListener = document.body;
+		</script>
+	</body>
+</html>
