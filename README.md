@@ -11,6 +11,6 @@ install that via:
 
     npm install -g bower
 
-Then, go ahead and download the element's dependencies:
+Then, go ahead and download the element and its dependencies. Run this command form you project directory:
 
-    bower install
+    bower install parallax-frame
