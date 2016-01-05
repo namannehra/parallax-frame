@@ -23,9 +23,9 @@
     "tests"
   ],
   "dependencies": {
-    "polymer": "Polymer/polymer#~1.2.3"
+    "polymer": "Polymer/polymer#^1.2.0"
   },
   "devDependencies": {
-    "iron-component-page": "PolymerElements/iron-component-page#~1.1.2"
+    "iron-component-page": "PolymerElements/iron-component-page#^1.1.0"
   }
 }
