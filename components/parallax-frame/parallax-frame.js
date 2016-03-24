@@ -20,15 +20,15 @@ Polymer({
 		},
 		/*`true` if mouse is over `mouseListener`. Else `false.`
 		*
-		*Note: `mouseIn` is alawys set to `false` when `dissableParallax` is set `true` or `mouseListener` changes*/
+		*__Note__: `mouseIn` is alawys set to `false` when `dissableParallax` is set `true` or `mouseListener` changes*/
 		mouseIn: {
 			type: Boolean,
 			value: false,
 			notify: true
 		},
-		/*Element for lintening mouse events used for parallax effect
-		*
-		*Note: Do not use `document`. Use `document.body` instead.*/
+		/*Element for lintening mouse events used for parallax effect. __Note__: Do not use `document`. Use `document.body` instead.
+		@type {HTMLElement}
+		@default this*/
 		mouseListener: {
 			type: Object,
 			value: function() {

@@ -1,5 +1,6 @@
 {
   "name": "parallax-frame",
+  "version": "0.1.1",
   "authors": [
     "Naman Nehra <naman.nehra98@gmail.com>"
   ],
@@ -27,14 +28,13 @@
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.1.0"
   },
-  "_release": "a68b054b28",
+  "_release": "0.1.1",
   "_resolution": {
-    "type": "branch",
-    "branch": "master",
-    "commit": "a68b054b28b9d9b6f1ead34213e93a80d6538d9c"
+    "type": "version",
+    "tag": "0.1.1",
+    "commit": "e2515bd2b0bc009aeeb87daafeccf9d3c2c87477"
   },
   "_source": "git://github.com/namannehra/parallax-frame.git",
-  "_target": "master",
-  "_originalSource": "namannehra/parallax-frame",
-  "_direct": true
+  "_target": "*",
+  "_originalSource": "parallax-frame"
 }

@@ -6,8 +6,7 @@ _[Demo and API Docs](https://namannehra.github.io/parallax-frame/)_
 
 ## Dependencies
 
-Element dependencies are managed via [Bower](http://bower.io/). You can
-install that via:
+Element dependencies are managed via [Bower](http://bower.io/). You can install that via:
 
     npm install -g bower
 
